@@ -1,14 +1,13 @@
 <?php
 
-
-namespace mtphp\ClassManipulation;
+namespace MulerTech\ClassManipulation;
 
 use ReflectionClass;
 use ReflectionMethod;
 
 /**
  * Class ClassManipulation
- * @package mtphp\ClassManipulation
+ * @package MulerTech\ClassManipulation
  * @author Sébastien Muler
  */
 class ClassManipulation
