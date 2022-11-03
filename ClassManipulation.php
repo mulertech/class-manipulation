@@ -35,6 +35,8 @@ class ClassManipulation
     }
 
     /**
+     * Get the class name in lower case :
+     * /complete/namespace/to/class/ClassName -> classname
      * @param string $class Complete class name with or without namespace
      * @return string Name of this class without namespace in lowercase
      */
