@@ -43,4 +43,18 @@ class ClassManipulation
     {
         return ($pos = strrpos($class, '\\')) ? strtolower(substr($class, $pos + 1)) : strtolower($class);
     }
+
+    /**
+     * @param string $class
+     * @return array|null
+     */
+    public static function getClassProperties(string $class): ?array
+    {
+        $reflectionClass = new ReflectionClass($class);
+        $classAndParentProperties = $reflectionClass->getProperties();
+        $entityProperties = array_filter($classAndParentProperties, static function ($property) use ($class) {
+            return $property->class === $class;
+        });
+        return $entityProperties;
+    }
 }

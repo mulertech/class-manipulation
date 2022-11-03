@@ -51,3 +51,12 @@ $reflectionMethods = ClassManipulation::getClassReflectionMethods(new Reflection
 $className = ClassManipulation::getClassNameLower(/complete/namespace/to/class/ClassName::class);
 // classname
 ```
+
+<br>
+
+###### _Get the properties of a class given (not include the parents properties) :_
+
+```
+$properties = ClassManipulation::getClassProperties(/complete/namespace/to/class/ClassName::class);
+// ['property1', 'property2']
+```
