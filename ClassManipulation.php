@@ -3,6 +3,7 @@
 namespace MulerTech\ClassManipulation;
 
 use ReflectionClass;
+use ReflectionException;
 use ReflectionMethod;
 
 /**
@@ -35,7 +36,7 @@ class ClassManipulation
 
     /**
      * Get the class name in lower case :
-     * /complete/namespace/to/class/ClassName -> classname
+     * /Fully/Qualified/Class/Name -> name
      * @param string $class Complete class name with or without namespace
      * @return string Name of this class without namespace in lowercase
      */
@@ -47,14 +48,14 @@ class ClassManipulation
     /**
      * @param string $class
      * @return array|null
+     * @throws ReflectionException
      */
     public static function getClassProperties(string $class): ?array
     {
         $reflectionClass = new ReflectionClass($class);
         $classAndParentProperties = $reflectionClass->getProperties();
-        $entityProperties = array_filter($classAndParentProperties, static function ($property) use ($class) {
+        return array_filter($classAndParentProperties, static function ($property) use ($class) {
             return $property->class === $class;
         });
-        return $entityProperties;
     }
 }
