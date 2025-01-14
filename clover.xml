@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1736886205">
-  <project timestamp="1736886205">
+<coverage generated="1736886339">
+  <project timestamp="1736886339">
     <package name="MulerTech\ClassManipulation">
-      <file name="/var/www/html/src/ClassManipulation.php">
+      <file name="/home/runner/work/class-manipulation/class-manipulation/src/ClassManipulation.php">
         <class name="MulerTech\ClassManipulation\ClassManipulation" namespace="MulerTech\ClassManipulation">
           <metrics complexity="5" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
         </class>
