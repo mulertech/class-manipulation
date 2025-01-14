@@ -2,6 +2,12 @@
 # ClassManipulation
 
 ___
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mulertech/class-manipulation.svg?style=flat-square)](https://packagist.org/packages/mulertech/class-manipulation)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/mulertech/class-manipulation/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/mulertech/class-manipulation/actions/workflows/tests.yml)
+[![GitHub PHPStan Action Status](https://img.shields.io/github/actions/workflow/status/mulertech/class-manipulation/phpstan.yml?branch=main&label=phpstan&style=flat-square)](https://github.com/mulertech/class-manipulation/actions/workflows/phpstan.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/mulertech/class-manipulation.svg?style=flat-square)](https://packagist.org/packages/mulertech/class-manipulation)
+[![Test Coverage](https://raw.githubusercontent.com/mulertech/class-manipulation/main/badge-coverage.svg)](https://packagist.org/packages/mulertech/class-manipulation)
+___
 
 This Class manipulate classes
 
