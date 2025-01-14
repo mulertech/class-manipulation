@@ -1,14 +1,18 @@
 <?php
 
+namespace MulerTech\ClassManipulation\Tests;
+
+use MulerTech\ClassManipulation\ClassManipulation;
 use MulerTech\ClassManipulation\Tests\Files\Fake;
 use PHPUnit\Framework\TestCase;
+use ReflectionClass;
 
 class ClassManipulationTest extends TestCase
 {
     public function testGetClassReflectionMethods(): void
     {
         $reflectionClass = new ReflectionClass(Fake::class);
-        $methods = MulerTech\ClassManipulation\ClassManipulation::getClassReflectionMethods($reflectionClass);
+        $methods = ClassManipulation::getClassReflectionMethods($reflectionClass);
         $this->assertCount(1, $methods);
         $this->assertEquals('fakeMethod', $methods[0]->getName());
     }
@@ -17,13 +21,13 @@ class ClassManipulationTest extends TestCase
     {
         $this->assertEquals(
             'fake',
-            MulerTech\ClassManipulation\ClassManipulation::getClassNameLower(Fake::class)
+            ClassManipulation::getClassNameLower(Fake::class)
         );
     }
 
     public function testGetClassProperties(): void
     {
-        $properties = MulerTech\ClassManipulation\ClassManipulation::getClassProperties(Fake::class);
+        $properties = ClassManipulation::getClassProperties(Fake::class);
         $this->assertCount(1, $properties);
         $this->assertEquals('fakeProperty', $properties[0]->getName());
     }

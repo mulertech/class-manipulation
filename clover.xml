@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1736886205">
+  <project timestamp="1736886205">
+    <package name="MulerTech\ClassManipulation">
+      <file name="/var/www/html/src/ClassManipulation.php">
+        <class name="MulerTech\ClassManipulation\ClassManipulation" namespace="MulerTech\ClassManipulation">
+          <metrics complexity="5" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
+        </class>
+        <line num="24" type="method" name="getClassReflectionMethods" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="44" type="method" name="getClassNameLower" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="54" type="method" name="getClassProperties" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <metrics loc="63" ncloc="40" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <metrics files="1" loc="63" ncloc="40" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
+  </project>
+</coverage>
