@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1736886339">
-  <project timestamp="1736886339">
+<coverage generated="1736886770">
+  <project timestamp="1736886770">
     <package name="MulerTech\ClassManipulation">
       <file name="/home/runner/work/class-manipulation/class-manipulation/src/ClassManipulation.php">
         <class name="MulerTech\ClassManipulation\ClassManipulation" namespace="MulerTech\ClassManipulation">
