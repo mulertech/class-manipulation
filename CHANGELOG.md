@@ -1,4 +1,4 @@
-# Release notes for application
+# Release notes for class-manipulation
 
 ## v1.0.4 - 2024-10-29
 

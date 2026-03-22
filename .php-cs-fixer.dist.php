@@ -1,12 +1,8 @@
 <?php
 
-$finder = PhpCsFixer\Finder::create()->in([
-    'src',
-    'tests',
-]);
+$finder = PhpCsFixer\Finder::create()->in(['src', 'tests']);
 
 return (new PhpCsFixer\Config())
-    ->setRules([
-        '@PSR12' => true,
-    ])
+    ->setRules(['@Symfony' => true])
+    ->setRiskyAllowed(true)
     ->setFinder($finder);
