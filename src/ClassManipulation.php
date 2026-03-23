@@ -24,7 +24,7 @@ class ClassManipulation
         $current_class_name = $reflectionClass->getShortName();
         $list = $reflectionClass->getMethods();
 
-        return array_reduce($list, static function ($list, $method) use ($current_class_name) {
+        return array_reduce($list, static function (array $list, $method) use ($current_class_name) {
             $namespace = explode('\\', $method->class);
             $class_name = end($namespace);
             if ($class_name === $current_class_name) {
@@ -32,7 +32,7 @@ class ClassManipulation
             }
 
             return $list;
-        });
+        }, []) ?: null;
     }
 
     /**
