@@ -5,6 +5,7 @@ ___
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mulertech/class-manipulation.svg?style=flat-square)](https://packagist.org/packages/mulertech/class-manipulation)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/mulertech/class-manipulation/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/mulertech/class-manipulation/actions/workflows/tests.yml)
 [![GitHub PHPStan Action Status](https://img.shields.io/github/actions/workflow/status/mulertech/class-manipulation/phpstan.yml?branch=main&label=phpstan&style=flat-square)](https://github.com/mulertech/class-manipulation/actions/workflows/phpstan.yml)
+[![GitHub Security Action Status](https://img.shields.io/github/actions/workflow/status/mulertech/class-manipulation/security.yml?branch=main&label=security&style=flat-square)](https://github.com/mulertech/class-manipulation/actions/workflows/security.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/mulertech/class-manipulation.svg?style=flat-square)](https://packagist.org/packages/mulertech/class-manipulation)
 [![Test Coverage](https://raw.githubusercontent.com/mulertech/class-manipulation/badge/badge-coverage.svg)](https://packagist.org/packages/mulertech/class-manipulation)
 ___
